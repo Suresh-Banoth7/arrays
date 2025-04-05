@@ -20,7 +20,6 @@ public class PascalsTriangle {
 
         for(int i=1;i<=rows;i++){
             List<Integer> temp = new ArrayList<>();
-            int res = 1;
             for(int col =1 ; col<=i; col++){
 
                 temp.add(nCr(i-1,col-1));
